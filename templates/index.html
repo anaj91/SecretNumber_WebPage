@@ -1,0 +1,13 @@
+{% extends "base.html"%}
+
+{% block content %}
+<form method="post" action="/rezultati" class="square">
+    <p class="padd">Vpiši število od 1-30.</p>
+    <input type="text" name="guess" placeholder="Vpiši število">
+    <br>
+
+    <button type="submit" class="button_confirm">Potrdi</button>
+</form>
+
+{% endblock content %}
+
